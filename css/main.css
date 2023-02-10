@@ -111,22 +111,60 @@ body {
 .wrapper {
     display: flex;
     justify-content: space-between;/*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 500;
 }
 
-.div-1, .div-2, .div-3 {
+.div-1 {
   display: flex;
   width: 30%;
   justify-content: center;/*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   align-items: center;
-  color: #fff;
+  color: rgb(57, 5, 36);
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
+  background-color: #c5bdeb;
   height: 300px;
+  border: double darkblue;
+  border-width: 5px;
+  padding: 20px;
 }
 
+.div-2{
+    display: flex;
+    width: 30%;
+    justify-content: center;/*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+    align-items: center;
+    color: rgb(8, 11, 72);
+    line-height: 1.5em;
+    font-size: .7em;
+    background-color: #f5bdeb;
+    height: 300px;
+    border: double darkblue;
+    border-width: 5px;
+    padding: 20px;
+}
 
+.div-3{
+    display: flex;
+    width: 30%;
+    justify-content: center;/*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+    align-items: center;
+    color: rgb(4, 7, 61);
+    line-height: 1.5em;
+    font-size: .7em;
+    background-color: #d3f4db;
+    height: 300px;
+    border: double darkblue;
+    border-width: 5px;
+    padding: 20px;
+}
+
+h3{
+    align: center;
+    color:rgb(8, 11, 72)
+    border: white;
+    text-decoration: underline magenta 2px;
+}
 
 
 /* ==========================================================================
