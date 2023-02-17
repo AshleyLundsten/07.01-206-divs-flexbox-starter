@@ -97,75 +97,127 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #EBE9CE;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
 }
 
+header,
+footer,
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header,
+footer {
+
+  background-color: #8be7ed;
+  height: 80px;
+  width: 100%;
+}
+
+
+header{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+}
+
+
+main{
+    color: rgb(204, 228, 243);  
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5;
+    text-align: left;
+    height: 250px;
+    width: 100%;
+    background-image: url(../img/pexels-maria-orlova-4913463.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-right: 34%;
+    padding-left: 2%;
+}
+
 .wrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     justify-content: space-between;/*add display:flex and set justify-content to space-between*/
-  font-weight: 500;
+    font-weight: 500;
 }
 
-.div-1 {
-  display: flex;
+.flex-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+    font-size: 1.6em;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+}
+
+
+#div-1 {
   width: 30%;
-  justify-content: center;/*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  align-items: center;
-  color: rgb(57, 5, 36);
+  color: white;
   line-height: 1.5em;
-  font-size: 1em;
-  background-color: #c5bdeb;
+  font-size: .8em;
+  background-color: #080105;
   height: 300px;
-  border: double darkblue;
+  border: double lightblue;
   border-width: 5px;
-  padding: 20px;
+  overflow: auto;
+  padding: 5;
 }
 
-.div-2{
-    display: flex;
+#div-2{
     width: 30%;
-    justify-content: center;/*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-    align-items: center;
-    color: rgb(8, 11, 72);
+    color: white;
     line-height: 1.5em;
     font-size: .7em;
-    background-color: #f5bdeb;
+    background-color: #080105;
     height: 300px;
-    border: double darkblue;
+    border: double lightblue;
     border-width: 5px;
-    padding: 20px;
+    margin-bottom: auto;
+    padding: 5;
 }
 
-.div-3{
-    display: flex;
+#div-3{
     width: 30%;
-    justify-content: center;/*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-    align-items: center;
-    color: rgb(4, 7, 61);
+    color: white;
     line-height: 1.5em;
     font-size: .7em;
-    background-color: #d3f4db;
+    background-color: #080105;
     height: 300px;
-    border: double darkblue;
+    border: double lightblue;
     border-width: 5px;
-    padding: 20px;
+    margin-top: auto;
+    overflow: auto;
+    padding: 5;
 }
 
 h3{
-    align: center;
+    text-align: center;
     color:rgb(8, 11, 72)
     border: white;
-    text-decoration: underline magenta 2px;
+    text-decoration: underline #473D4A 2px;
 }
 
+footer{
+    justify-content: center;
+
+}
 
 /* ==========================================================================
    Helper classes
